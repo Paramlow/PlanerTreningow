@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#F4F4F4"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/planer_trening_w"
+        android:gravity="center"
+        android:background="#0000FF"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp">
+    </TextView>
+    <ImageView
+        android:id="@+id/NaglowekZdjecie"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:contentDescription="@string/zdj_cie_sportowca"
+        android:src="@drawable/sportowiec"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp">
+    </ImageView>
+    <Button
+        android:id="@+id/buttonLosuj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/losuj_wiczenie2"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_margin="10dp"
+        app:backgroundTint="#0000FF"
+        app:cornerRadius="15dp">
+    </Button>
+    <ImageView
+        android:id="@+id/cwiczenieZdjecie"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/cwiczenie0"
+        android:scaleType="fitCenter"
+        android:layout_marginHorizontal="20dp"
+        android:contentDescription="@string/obecnecwiczenie">
+    </ImageView>
+    <TextView
+        android:id="@+id/tekstCwiczenia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/losuj_wiczenie1"
+        android:gravity="center">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:minWidth="40dp"
+            android:minHeight="30dp"
+            android:text="@string/minus1"
+            app:backgroundTint="#808080"
+            app:cornerRadius="15dp"/>
+
+        <TextView
+            android:id="@+id/licznik"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/_0"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:minWidth="40dp"
+            android:minHeight="0dp"
+            android:text="@string/plus1"
+            app:backgroundTint="#808080"
+            app:cornerRadius="15dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/nastepneCwiczenie"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:minWidth="40dp"
+            android:minHeight="30dp"
+            android:text="@string/nast_pne_wiczenie"
+            app:backgroundTint="#008000"
+            app:cornerRadius="15dp"/>
+
+
+        <Button
+            android:id="@+id/resetuj"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:minWidth="40dp"
+            android:minHeight="0dp"
+            android:text="@string/reset"
+            app:backgroundTint="#ff0000"
+            app:cornerRadius="15dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/licznikSerii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/czna_liczba_serii_0">
+
+    </TextView>
+
+
+</LinearLayout>

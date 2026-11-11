@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PlanerTreningow</string>
+    <string name="losuj_wiczenie">losuj ćwiczenie</string>
+    <string name="obecnecwiczenie">obecnecwiczenie</string>
+    <string name="zdj_cie_sportowca">Zdjęcie sportowca</string>
+    <string name="planer_trening_w">Planer treningów</string>
+    <string name="losuj_wiczenie1">Losuj ćwiczenie</string>
+    <string name="_0">0</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="plus1">+</string>
+    <string name="minus1">-</string>
+    <string name="losuj_wiczenie2">LOSUJ ĆWICZENIE</string>
+    <string name="nast_pne_wiczenie">NASTĘPNE ĆWICZENIE</string>
+    <string name="reset">RESET</string>
+    <string name="czna_liczba_serii_0">Łączna liczba serii: 0</string>
+</resources>
